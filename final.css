@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .recent-news {
+    nav, .recent-news, footer {
         font-size: 16px;
         line-height: 1.5em;
     }
