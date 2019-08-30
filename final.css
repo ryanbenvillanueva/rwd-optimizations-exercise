@@ -1,4 +1,14 @@
-body {
-    font-size: 16px;
-    line-height: 1.2em;
+
+
+@media screen and (max-width: 425px) {
+    .scores__table .scores__location {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recent-news {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
 }
